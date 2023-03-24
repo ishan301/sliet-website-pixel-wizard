@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .navbar li {
+      float: left;
+    }
+    
+    .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .navbar li a:hover {
+      background-color: #111;
+    }
+  
+  
+    .dropdown {
+      float: left;
+    }
+    
+    .dropdown .dropbtn {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown:hover .dropbtn {
+      background-color: #111;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: black;
+      min-width: 160px;
+      /* margin-top: 5px; */
+      text-align: center;
+    }
+    
+    
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+  
+    }
+    @media screen and (max-width: 600px) {
+      .navbar li {
+        float: none;
+      }
+      .navbar li a {
+        padding: 10px;
+      }
+      .dropdown .dropbtn {
+        padding: 10px;
+      }
+      .dropdown-content a {
+        padding: 10px 16px;
+      }
+    }
+  
+  
+    /* Logo section */
+  
+  .sliet_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  
+  .sliet_logo img{
+    height: 10%;
+    width: 10%;
+  }
+  
+  .sliet_logo .name{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  
+  .sliet_logo .ind img{
+    width: 70%;
+    height: 70%;
+    
+  }
+    

@@ -38,11 +38,11 @@ h2{
     border-top-left-radius: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-ul{
+.item ul{
     margin: 1%;
     list-style: none;
 }
-li{
+.item ul li{
     padding: 2%;
 }
 li:hover{
