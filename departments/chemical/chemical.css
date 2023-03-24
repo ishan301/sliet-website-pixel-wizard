@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chemicalHeading{
+    text-align: center;
+    margin: 2rem 0rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chemicalSubDomains{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.subDomain{
+    width: 25%;
+    height: 6rem;
+    border: 2px solid red;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: black;
+}
+
+.subDomain a{
+    color: white;
+    text-decoration: none;
+}
+
+.messageImg
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.messageImg img
+{
+    width: 25%;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.chemicalSubDomains a:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.chemicalSubDomains a{
+    transition: all .5s;
+}
+
+

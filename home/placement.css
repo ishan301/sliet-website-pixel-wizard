@@ -1,0 +1,56 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+}
+.messageImg
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.messageImg img
+{
+    width: 15%;
+    border-radius: 1rem;
+    margin:  2rem;
+}
+
+.links
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links li
+{
+    list-style: none;
+}
+.links h2:hover
+{
+    cursor: pointer;
+    scale: 1.1;
+    
+}
+.links h2
+{
+    border: 2px solid gray;
+    padding: 3rem;
+    border-radius: 7px;
+    width: 20%;
+    height: 2.5rem;
+    text-align: center;
+    transition: all .5s;
+}
+.links li a
+{
+    text-decoration: underline;
+    color: white;
+}
