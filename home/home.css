@@ -17,7 +17,7 @@ body{
     height: auto;
     width: 95%;
     margin: 1%;
-    border: 2px solid #92000a;
+    /* border: 2px solid #92000a; */
     display: inline-block;
     padding: 0.5rem;
 }
@@ -27,7 +27,6 @@ body{
     border: 2px solid #92000a;
     background-color: black;
     border-radius: 20px;
-    height: 40vh;
     width: 98%;
 }
 h2{
@@ -149,4 +148,41 @@ li:hover{
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+  }
+  .card .caption{
+    text-align: center;
+  }
+  .card:hover{
+    color: #c38e3c;
+    cursor: pointer;
+  }
+  #latest_news img{
+    height: 170px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .row{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      width: 70%;
+      justify-content: center;
+      align-items: center;
+      margin: 3%;
+    }
+    .item{
+      width: 100%;
+      margin: 4%;
+    }
+  }
+  
+ 
   
