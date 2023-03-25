@@ -1,22 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
 }
 
-.instrumentationHeading{
+.foodHeading{
     text-align: center;
     margin: 2rem 0rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
-.instrumentationSubDomains{
+.foodSubDomains{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -25,7 +28,7 @@
 .subDomain{
     width: 25%;
     height: 6rem;
-    border: 2px solid red;
+    border: 2px solid #c38e3c;
     border-radius: 5rem;
     display: flex;
     justify-content: center;
@@ -37,28 +40,29 @@
 .subDomain a{
     color: white;
     text-decoration: none;
+    transition: all .5s;
+}
+
+.subDomain a:hover{
+    cursor: pointer;
+    scale: 1.1;
 }
 
 .messageImg
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .messageImg img
 {
-    width: 25%;
+    width: 20%;
     border-radius: 1rem;
     margin: 2rem;
 }
 
-.instrumentationSubDomains a:hover{
-    cursor: pointer;
-    scale: 1.1;
-}
 
-.instrumentationSubDomains a{
-    transition: all .5s;
-}
+
+
 

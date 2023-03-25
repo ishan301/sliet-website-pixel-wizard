@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.teamDescription{
+.teamHeadline{
     width: auto;
     text-align: center;
     justify-content: center;
@@ -16,7 +16,7 @@ body{
     /* height: 80%; */
     border-radius: 25%;
 }
-.container{
+.teamDescription{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,7 +29,7 @@ body{
     font-size: 1rem;
 }
 
-.container2{
+.membersSide2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -44,4 +44,18 @@ body{
 
 .member{
     padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.membersSide2 .member
+{
+    flex-direction: row;
+
+}
+.member img
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
